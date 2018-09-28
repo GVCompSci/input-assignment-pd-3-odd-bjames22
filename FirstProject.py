@@ -8,7 +8,7 @@ tax = ((6/100)*subtotal)
 total = tax+subtotal
 print()
 print()
-print(name)
+print('Name: ',name)
 print('Phone number: ',phoneNumber)
 print('Purchase information:')
 print('Product name:',productName,'  Quantity: ',quantity,'  Price: ',price)
