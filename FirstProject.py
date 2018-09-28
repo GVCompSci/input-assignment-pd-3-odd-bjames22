@@ -1,7 +1,7 @@
 name = input('please enter your full name: ')
 phoneNumber = input('Please enter your phone number: ')
 productName = input('Please enter the item name you would like to purchase: ')
-price = int(input('What is the price of the item you would like to purchase: '))
+price = float(input('What is the price of the item you would like to purchase: '))
 quantity = int(input('Please enter the quantity of the item being purchased: '))
 subtotal = (price *quantity)
 tax = ((6/100)*subtotal)
